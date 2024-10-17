@@ -1,0 +1,27 @@
+.content {
+    display: none; /* Initially hide all divs */
+}
+
+.active {
+    display: block; /* Show the active div */
+}
+
+.icon {
+    color: white;
+    background-color: rgb(59, 55, 55);
+    box-shadow: 0 0 5px 3px black;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.icon-active {
+    color: white;
+    background-color: green;
+    box-shadow: 0 0 5px 3px black;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.icon-active:hover {
+    background-color: green;
+}

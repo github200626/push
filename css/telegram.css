@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.question-mark-container {
+    width: 95%;
+    margin: 3vh auto 10vh;
+}
+
+.question-mark-container .question-mark {
+    color: white;
+    background-color: lightgrey;
+    font-weight: bolder;
+    padding: 5px 8px;
+    border-radius: 50px;
+    margin-left: 93vw;
+}
+
+.contented {
+    width: 50%;
+    margin: auto;
+}
+
+.contented .icon-container {
+    width: 30%;
+    margin: auto;
+}
+
+.contented .icon-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.first-write-up {
+    width: 60%;
+    margin: 2vh auto;
+    text-align: center;
+}
+
+.first-write-up a {
+    color: rgb(53, 144, 236);
+    text-decoration: none;
+}
+
+.contented .second-write-up {
+    width: 75%;
+    margin: 2vh auto;
+    text-align: center;
+    font-weight: 200;
+}
+
+.second-write-up a {
+    color: rgb(53, 144, 236);
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contented .form-container {
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.contented select {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.contented .phone-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contented .phone-input span {
+    padding: 4px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.contented .phone-input input {
+    padding: 8px;
+    width: 75%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.phone-input input:focus {
+    border-bottom: 2px solid #3399ff;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-group > button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.cancel-btn {
+    background-color: white;
+    color: #3399ff;
+}
+
+.cancel-btn:hover {
+    background-color: #e0edfa;
+}
+
+.next-btn {
+    background-color: #3399ff;
+    color: white;
+}
+
+.next-btn:hover {
+    background-color: #0371df;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .question-mark {
+        display: none;
+    }
+
+    .contented {
+        width: 90%;
+    }
+
+    .icon-container {
+        width: 25%;
+        margin: auto;
+    }
+
+}
+    

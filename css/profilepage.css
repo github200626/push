@@ -1,0 +1,414 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.content-profile {
+    width: 70%;
+    margin: auto;
+}
+
+.coverpics {
+    position: relative;
+}
+
+.coverpics .coverpicture {
+    height: 30vh;
+}
+
+.coverpics .coverpicture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.writeup {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 90%;
+    margin: auto;
+    top: 10%;
+    left: 5%;
+    z-index: 10;
+    color: white;
+}
+
+.writeup button {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.writeup button i {
+    display: block;
+    font-size: 40px;
+}
+
+.profilepicture {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    top: 65%;
+    left: 5%;
+    border: 2px solid white;
+    border-radius: 70px;
+    z-index: 99;
+    background-color: red;
+}
+
+.profilepicture .ig {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 70px;
+}
+
+.aside {
+    position: absolute;
+    top: 105%;
+    right: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    align-items: center;
+}
+
+.aside a {
+    background-color: rgba(211, 211, 211, 0.479);
+    border-radius: 50%;
+    padding: 7px 15px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.aside button {
+    background-color: rgb(254, 0, 136);
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.content-profile .name-container {
+    width: 90%;
+    margin: 15vh auto 0;
+} 
+
+.content-profile .name-container a {
+    display: inline;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+.content-profile .name-container span {
+    color: grey;
+}
+
+.content-profile .name-container .see-more {
+    background-color: rgb(0, 179, 255);
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.content-profile .name-container p {
+    margin-top: 2vh;
+}
+
+.sub-container {
+    margin: 2vh auto 0;
+}
+
+.sub-container .subscription {
+    width: 90%;
+    margin: auto;
+    padding: 3vh 0;
+}
+
+.sub-container .subscription a {
+    text-decoration: none;
+}
+
+.sub-container .subscription h5 {
+    color: grey;
+}
+
+.sub-container .subscription button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 5%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(0, 179, 255);
+    color: white;
+    font-size: 15px;
+    margin-top: 2vh;
+}
+
+.sub-container .bundles {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid lightgrey;
+    border-bottom: 10px solid lightgrey;
+    padding: 2vh 0%;
+    width: 90%;
+    margin: auto;
+    color: rgb(0, 179, 255);
+}
+
+.posts {
+    margin-bottom: 10vh;
+}
+
+.posts > .buttons {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid lightgrey;
+}
+
+.posts > .buttons #post-border {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.posts > .buttons button {
+    background-color: transparent;
+    border: none;
+    padding: 3vh 0;
+    color: grey;
+}
+
+.posts .post {
+    width: 90%;
+    margin: auto;
+}
+
+.posts .post .head {
+    padding: 3vh 0 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts .post .head button {
+    border: none;
+    background-color: transparent;
+    padding: 0 1vw;
+}
+
+.posts .post .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts .post .profile .left {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts .post .profile .left .image {
+    width: 40%;
+    height: 10vh;
+    border-radius: 60px;
+}
+
+.posts .post .profile .left .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    object-fit: cover;
+}
+
+.posts .post .profile .left a {
+    text-decoration: none;
+    color: grey;
+}
+
+.posts .post .profile .right .shift {
+    float: right;
+}
+
+.posts .post-name {
+    margin: 3vh auto 0;
+}
+
+.posts .post .user-post {
+    width: 112%;
+    margin-left: -6%;
+    background-image: url('../images/lock-pic2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30vh 0 5vh;
+}
+
+.posts .post .user-post .open-post {
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.posts .post .user-post .open-post h5 {
+    color: white;
+}
+
+.posts .post .user-post .open-post button {
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(0, 179, 255);
+    padding: 10px 5px;
+}
+
+.posts .post .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts .post .actions .left i {
+    padding-right: 2vw;
+}
+
+.posts .post .actions .left .red {
+    color: red;
+    display: none;
+}
+
+.posts .stream {
+    background-color: aliceblue;
+    width: 100%;
+    margin: auto;
+    display: none;
+    padding: 32vh 0;
+}
+
+.posts .stream h1 {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .content-profile {
+        width: 100%;
+    }   
+
+    .coverpics .coverpicture {
+        height: 20vh;
+    }
+
+    .profilepicture {
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+
+    .profilepicture img {
+        border-radius: 100px;
+    }
+
+    .aside {
+        width: 35%;
+        top: 110%;
+    }
+
+    .sub-container .bundles {
+        width: 100%;
+        padding: 2vh 5%;
+    }
+
+    .posts > .buttons {
+        width: 100%;
+    }
+
+    .posts .post .profile .left {
+        width: 30%;
+    }
+
+    .posts .post .profile .left .image {
+        width: 40%;
+        height: 8vh;
+        border-radius: 50px;
+    }
+
+    .posts .user-post {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+
+    .profilepicture {
+        width: 120px;
+        height: 120px;
+        border-radius: 100px;
+    }
+
+    .profilepicture img {
+        border-radius: 100px;
+    }
+
+    .aside a {
+        font-size: 15px;
+    }
+
+    .aside {
+        width: 50%;
+        top: 105%;
+        right: 5%;
+    }
+
+    .content-profile .name-container {
+        margin: 8vh auto;
+    } 
+
+    .posts .post .profile .left {
+        width: 45%;
+    }
+
+    .posts .post .profile .left .image {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .content-profile .name-container {
+        margin: 15vh auto;
+    } 
+
+    .posts .post .profile .left {
+        width: 50%;
+    }
+
+    .posts .post .profile .left .image {
+        width: 40%;
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .posts .post .profile .left {
+        width: 53%;
+    }
+
+    .posts .post .profile .left .image {
+        width: 45%;
+        height: 10vh;
+    }
+}
